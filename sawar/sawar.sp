@@ -5,7 +5,7 @@
 _seq "12 7 12 7 5 7 5 7" gen_vals
 _clk var
 
-422 bpm2rate metro _clk set
+662 bpm2rate metro _clk set
 
 _clk get 0 _seq tseq 48 + mtof 0.3
 saw
