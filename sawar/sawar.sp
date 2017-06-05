@@ -4,12 +4,15 @@
 
 _seq "12 7 12 7 5 7 5 7" gen_vals
 _clk var
+_dry var
 
 662 bpm2rate metro _clk set
 
+
 _clk get 0 _seq tseq 48 + mtof 0.3
-saw
+saw 
 
 _clk get 0 _seq tseq 36 + mtof 0.3
-saw
+saw 
 +
+0.1 15 sine 1 500 biscale butlp
