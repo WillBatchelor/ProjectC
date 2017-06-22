@@ -1,4 +1,4 @@
-#ProjectC README
+# ProjectC README
 
 This is a music project I am starting where I am integrating cello instrumentation with electronic instrumentation.
 
